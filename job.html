@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робота в Gusto Italiano</title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Приєднуйся до нас і стань частиною родини <span class="brand">Gusto Italiano</span></h1>
+    </header>
+
+    <section class="hero">
+      <img 
+        src="https://media.istockphoto.com/id/2202051081/uk/%D1%84%D0%BE%D1%82%D0%BE/a-chef-is-cooking-in-his-restaurants-kitchen.jpg?s=612x612&w=0&k=20&c=ruHpDcwbWaqHckXw2Lk9nqvvCYhaP3MTzp738uHkVFw=" 
+        alt="Chef at Gusto Italiano" 
+        width="500"
+        height="333"
+      >
+      <p>Ми шукаємо людей, які люблять італійську кухню та гостинність. Разом ми створюємо справжній смак Італії у серці твого міста.</p>
+      <a href="#jobs" class="btn">Переглянути вакансії</a>
+    </section>
+
+    <section id="jobs">
+      <h2>Актуальні вакансії</h2>
+      <ul>
+        <li> Кухар піци</li>
+        <li> Бариста</li>
+        <li> Офіціант</li>
+        <li> Адміністратор залу</li>
+      </ul>
+      <a href="#apply" class="btn">Подати заявку</a>
+    </section>
+
+    <section id="apply">
+      <h2>Подати заявку</h2>
+      <form>
+        <label>Ім’я: <input type="text" name="name" required></label><br>
+        <label>Email: <input type="email" name="email" required></label><br>
+        <label>Вакансія: 
+          <select name="position">
+            <option>Кухар піци</option>
+            <option>Бариста</option>
+            <option>Офіціант</option>
+            <option>Адміністратор залу</option>
+          </select>
+        </label><br>
+        <label>Повідомлення: <br><textarea name="message" rows="4"></textarea></label><br>
+        <button type="submit">Надіслати</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Gusto Italiano | hr@gustoitaliano.ua</p>
+    </footer>
+
+    <script src="lib/script.js"></script>
+  </body>
+</html>
