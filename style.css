@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family:Noto Serif;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+background-color: lightslategray;
+border-radius: 10px;
+display:inline-block;
+padding: 5px;
+}
+
+
+a {
+  text-decoration: underline slategray;
+  color: white;
+}
+
+.button {
+  position: fixed;
+  top: 90%;
+  right: 5%;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.call-button .icon {
+  font-size: 24px;
+  color: white;
+  z-index: 2;
+}
+
+
+
+.pulse-ring:nth-child(1) {
+  animation-delay: 0s;
+}
+.pulse-ring:nth-child(2) {
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
